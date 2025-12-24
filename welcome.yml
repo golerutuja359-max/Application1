@@ -1,1 +1,6 @@
-msg: Hello from Config Server updated refresh scope update without restarting the server
+spring.profiles.active=dev
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*, refresh'
