@@ -1,4 +1,4 @@
-msg : Hi from welcome.yml
+msg : Hi!! from welcome.yml
 spring: 
   boot:
     admin:
